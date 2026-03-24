@@ -47,5 +47,3 @@ ans:
 
 ○ How can this system be integrated into a mobile or web application? 
 Ans:
-○ Suggest a real-world application for your trained model.
-○ How can this system be integrated into a mobile or web application?
