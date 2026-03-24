@@ -3,8 +3,11 @@
 Guide Questions (Student Reflection & Explanation)
 
 1. Dataset Preparation
+   
 ○ How did you organize your dataset in Google Drive?
+
 Ans:
+
 ○ Why is folder structure important for TensorFlow image loading?
 Ans:
 
