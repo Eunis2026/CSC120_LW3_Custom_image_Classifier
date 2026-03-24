@@ -1,4 +1,5 @@
 # CSC120_LW3_Custom_image_Classifier
+This is the Link for the Google Collab:
 
 Guide Questions (Student Reflection & Explanation)
 
@@ -6,44 +7,85 @@ Guide Questions (Student Reflection & Explanation)
    
 ○ How did you organize your dataset in Google Drive?
 
-Ans:
+Ans:I organized my dataset in Google Drive by creating a structured folder system to keep all files clean and easy to access.
+
+MyDrive/
+└── ImageDataset/
+├── ClassA/
+│ ├── img1.jpg
+│ ├── img2.jpg
+├── ClassB/
+│ ├── img1.jpg
+│ ├── img2.jpg
+├── ClassC/
 
 ○ Why is folder structure important for TensorFlow image loading?
-Ans:
+
+Ans: Folder structure is important because it makes everything simpler and automatic when working with TensorFlow.
 
 2. Model Training
    
 ○ What is the role of convolutional layers in image classification?
 
-Ans:
+Ans: Convolutional layers are the part of the model that helps it “see” and understand images when using TensorFlow.
 
 ○ Why do we split data into training and validation sets?
 
-Ans:
+Ans: We split the data so we can train the model and also check if it’s actually learning properly when using TensorFlow.
 
 3. Performance Analysis
    
 ○ What accuracy did your model achieve?
 
-Ans:
+Ans: In my dataset, I had 250 images per class, which is a moderate amount of data. This helped the model learn the basic patterns of each class. The training accuracy reached around 99%, but the validation accuracy was lower at about 72%, which suggests that the model may have slightly overfitted the training data.
 
 ○ How did the number of images affect the model’s performance?
-Ans:
+
+Ans: When there were more images, the model performed better because it had more examples to learn from. This helped it recognize patterns more accurately and improved its overall accuracy.
 
 4. Critical Thinking
    
 ○ What challenges did you encounter while using your own dataset?
 
-Ans:
+Ans: There were some technical challenges, like setting up the dataset correctly in Google Drive and making sure it loaded properly in the training environment.
 
 ○ How can data augmentation improve your model?
 
-Ans:
+Ans: Data augmentation helps improve the model by creating more variety in the training data without needing to collect new images, especially when using TensorFlow.
 
 5. Application:
    
 ○ Suggest a real-world application for your trained model.
-ans:
+
+Ans: A real-world application of my trained model using TensorFlow could be an image-based classification system, such as a plant disease detection app or a product sorting system.
 
 ○ How can this system be integrated into a mobile or web application? 
-Ans:
+
+Ans: The trained model using TensorFlow can be integrated into a mobile or web application by turning it into a service that the app can use for predictions.
+
+**Guide Questions** 
+
+Visualization & Overfitting:
+
+1. What signs indicated overfitting in your first model?
+   
+2. How did data augmentation affect validation accuracy?
+   
+Model Improvement
+
+3. What is the purpose of dropout layers?
+   
+4. Why does data augmentation improve generalization?
+
+   
+Performance Comparison:
+
+5. Compare accuracy before and after improvements.
+    
+6. Which technique contributed most to improvement?
+
+Deployment & Application:
+
+7. Why is saving the model important?
+
+8. How can this model be deployed in a real-world system?
