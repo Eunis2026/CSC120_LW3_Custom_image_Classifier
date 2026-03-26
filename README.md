@@ -1,5 +1,5 @@
 # CSC120_LW3_Custom_image_Classifier
-This is the Link for the Google Collab:
+This is the Link for the Google Colab:  https://colab.research.google.com/drive/1xzCEOLH0TJKoC6skdJa2VmsEgbrhx3e8?usp=sharing
 
 Guide Questions (Student Reflection & Explanation)
 
@@ -68,24 +68,40 @@ Ans: The trained model using TensorFlow can be integrated into a mobile or web a
 Visualization & Overfitting:
 
 1. What signs indicated overfitting in your first model?
+   Ans: Training accuracy keeps increasing, but validation accuracy plateaus
    
+Training accuracy goes up to ~99%
+
+Validation accuracy stops around ~73% and doesn’t improve much
+
 2. How did data augmentation affect validation accuracy?
+   Ans:It increased steadily at the start (from ~0.30 → ~0.70+)
    
 Model Improvement
 
 3. What is the purpose of dropout layers?
    
+   Ans: Dropout is a regularization technique used to prevent overfitting in neural networks
+   
 4. Why does data augmentation improve generalization?
-
+   Ans: it’s like teaching someone using examples from different angles and situations—so when they see something new, they can still recognize it.
    
 Performance Comparison:
 
 5. Compare accuracy before and after improvements.
-    
+    Ans:
+    Before: High accuracy but poor generalization (overfitting)
+
+    After: Balanced accuracy and better real-world performance
+   
 6. Which technique contributed most to improvement?
+   Ans: Data Augmentation
+   
 
 Deployment & Application:
 
 7. Why is saving the model important?
+   ANS: Saving your model is important because it lets you keep all the learning your model has done so you don’t have to train it again from scratch.
 
-8. How can this model be deployed in a real-world system?
+9. How can this model be deployed in a real-world system?
+After training and saving your model, deployment means making it usable by other people or systems.
